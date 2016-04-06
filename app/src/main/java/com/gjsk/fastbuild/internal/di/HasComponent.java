@@ -6,5 +6,5 @@ package com.gjsk.fastbuild.internal.di;
  */
 public interface HasComponent<C> {
 
-        C getComponent();
+    C getComponent();
 }

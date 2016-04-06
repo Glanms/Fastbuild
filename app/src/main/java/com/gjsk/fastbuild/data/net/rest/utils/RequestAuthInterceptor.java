@@ -8,8 +8,7 @@ import java.io.IOException;
 /**
  * Created by Glanms on 16/4/5.
  */
-public class RequestAuthInterceptor implements Interceptor
-{
+public class RequestAuthInterceptor implements Interceptor {
 
 
     @Override

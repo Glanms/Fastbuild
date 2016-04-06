@@ -9,8 +9,7 @@ import java.io.IOException;
 /**
  * Created by Glanms on 16/4/5.
  */
-public class ConfigInterceptor implements Interceptor
-{
+public class ConfigInterceptor implements Interceptor {
     public ConfigInterceptor() {
 
     }

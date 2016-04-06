@@ -10,12 +10,14 @@ public interface LoginView extends LoadDataView {
 
     /**
      * 登录成功
+     *
      * @param user
      */
     void loginSuccess(UserModel user);
 
     /**
      * 登录失败
+     *
      * @param cause
      */
     void loginFailed(String cause);

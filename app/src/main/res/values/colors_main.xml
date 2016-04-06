@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <attr name="color_main_btn" format="reference|color"/>
+    <attr name="color_main_btn" format="reference|color" />
     <color name="color_main_btn_normal">#bdccdc</color>
     <color name="color_main_btn_pressed">#88a8c9</color>
 </resources>

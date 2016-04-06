@@ -7,7 +7,7 @@ import dagger.Component;
 /**
  * Created by Glanms on 16/4/5.
  */
-@Component(dependencies = ActivityComponent.class,modules = SettingModule.class)
+@Component(dependencies = ActivityComponent.class, modules = SettingModule.class)
 public interface SettingComponent {
 
 }

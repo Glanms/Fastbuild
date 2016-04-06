@@ -11,8 +11,8 @@ import rx.Observable;
  */
 public interface ConfigApi {
 
-    public static final String BASE_URL = com.gjsk.fastbuild.FastApplication.DEBUG ?"http://ec2.amazon.sd.test"
-            :"http://www.joymaker.api/";
+    String BASE_URL = com.gjsk.fastbuild.FastApplication.DEBUG ? "http://ec2.amazon.sd.test"
+            : "http://www.joymaker.api/";
 
     @GET("common/config")
     Observable<UserModel> getConfig();

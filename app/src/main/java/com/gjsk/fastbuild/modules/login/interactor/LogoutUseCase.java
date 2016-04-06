@@ -10,7 +10,6 @@ import com.gjsk.fastbuild.domain.interactor.UseCase;
 public class LogoutUseCase extends UseCase {
 
 
-
     public LogoutUseCase(ThreadExecutor threadExecutor, PostExecutionThread postExecutionThread) {
         super(threadExecutor, postExecutionThread);
     }

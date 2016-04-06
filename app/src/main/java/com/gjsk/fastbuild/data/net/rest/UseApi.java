@@ -12,8 +12,8 @@ import rx.Observable;
 public interface UseApi {
 
 
-    public static final String BASE_URL = com.gjsk.fastbuild.FastApplication.DEBUG ?"http://ec2.amazon.cc.test"
-            :"http://www.joymaker.api/";
+    String BASE_URL = com.gjsk.fastbuild.FastApplication.DEBUG ? "http://ec2.amazon.cc.test"
+            : "http://www.joymaker.api/";
 
     @GET("user/(id)")
     Observable<UserModel> getUserInfo(@Path("id") String id);

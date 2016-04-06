@@ -142,7 +142,7 @@ public class CommonParam {
 
     public CommonParam(Context context) {
 //        String deviceId = PreferencesUtils.getString(context, context.getString(R.string.preference_deviceId));
-        String deviceId = PreferencesUtils.getString(context,"device_id");
+        String deviceId = PreferencesUtils.getString(context, "device_id");
 
         if (!TextUtils.isEmpty(deviceId)) {
             setDevice_id(deviceId);

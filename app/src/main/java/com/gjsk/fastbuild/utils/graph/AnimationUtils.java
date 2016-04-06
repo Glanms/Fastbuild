@@ -11,12 +11,13 @@ public class AnimationUtils {
 
     /**
      * 设置淡入淡出动画
+     *
      * @param fromAlpha
      * @param toAlpha
      * @param duration
      */
-    public static void setAlphaAnim(float fromAlpha, float toAlpha, long duration){
-        AlphaAnimation alphaAnimation = new AlphaAnimation(fromAlpha,toAlpha);
+    public static void setAlphaAnim(float fromAlpha, float toAlpha, long duration) {
+        AlphaAnimation alphaAnimation = new AlphaAnimation(fromAlpha, toAlpha);
         alphaAnimation.setDuration(duration);
         alphaAnimation.setInterpolator(new LinearInterpolator());
 

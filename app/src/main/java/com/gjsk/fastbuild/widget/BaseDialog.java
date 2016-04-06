@@ -23,7 +23,7 @@ public class BaseDialog extends DialogFragment {
     }
 
     //对外进行赋值操作
-    public void setValue(){
+    public void setValue() {
 
     }
 
